@@ -19,9 +19,9 @@ export const Card = () => {
                                      Первая консультация 
                                      </h4>
                                      <div class="line"></div>
-                                     <h5 className="textCardBody" >1 500 рублей</h5>
+                                     <h5 className="textCardBody" >Скидка до 10%</h5>
                                      <h5 className="textCardBodyTwo" >Наш бот подбирает Вам психолога, который специализируется на вашей проблеме</h5>
-                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button></a>
+                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Узнать цену</button></a>
                                  </div>
                              </div>
                          </div>
@@ -34,9 +34,9 @@ export const Card = () => {
                                       Каждая следующая
                                      </h4>
                                      <div class="line"></div>
-                                     <h5 className="textCardBody">1 800 рублей</h5>
+                                     <h5 className="textCardBody">Получите лучшее предложнеие</h5>
                                      <h5 className="textCardBodyTwo">Наш бот подбирает Вам психолога, который специализируется на вашей проблеме</h5>
-                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Оплатить</button></a>
+                                     <a href="https://t.me/psihologichno_bot"><button onClick={() => console.log('connect')} className = "cardButton">Узнать цену</button></a>
                                  </div>
                              </div>                       
                          </div>
