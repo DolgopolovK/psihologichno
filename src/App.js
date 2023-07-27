@@ -23,7 +23,7 @@ function App() {
     <div className="App">
       {articles.map(articles => {
         return (
-          <p>{articles.}</p>
+          <p>{articles}</p>
       )
       })}
       {/* <Main/> */}
