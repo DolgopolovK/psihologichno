@@ -1,26 +1,32 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Banner } from "./components/Banner";
-import { Skills } from "./components/Skills";
-import { Skills2 } from "./components/Skills2";
-import { Contact } from "./components/Contact";
-import { Footer } from "./components/Footer";
-import { Card } from "./components/Card";
-import { Problems } from "./components/Problems";
+import Main from './pages/Main';
+import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
+const cardDataList = "0.0.0.0:8001";
 
 function App() {
+
+  const [articles, setArticles] = useState([]);
+
+  useEffect(()=>{
+    axios
+      .get(cardDataList)
+      .then(data => {
+        setArticles(data)
+      })
+  }, []);
+
   return (
     <div className="App">
-      <Banner />
-      <Skills />
-      <Skills2 />
-      <Card />
-      <Problems />
-      {/* <Projects /> */}
-      <Contact />
-      <Footer />
+      {articles.map(articles => {
+        return (
+          <p>{articles.}</p>
+      )
+      })}
+      {/* <Main/> */}
     </div>
   );
 }
