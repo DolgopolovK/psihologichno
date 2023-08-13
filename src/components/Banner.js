@@ -92,10 +92,10 @@ export const Banner = () => {
                 <h3 className="social-number">+7 910 225 12 80</h3>
               </div>
               <div className="social-icon">
-                <a href="https://dzen.ru/id/5f3bceee70d985686bb768b9"><img src={navIcon1} alt="" /></a>
-                <a href="https://vk.com/public218860758"><img src={navIcon2} alt="" /></a>
-                <a href="#"><img src={navIcon3} alt="" /></a>
-                <a href="https://t.me/psihologichnochannel"><img src={navIcon4} alt="" /></a>
+                {/* <a href="https://dzen.ru/id/5f3bceee70d985686bb768b9"><img src={navIcon1} alt="" /></a> */}
+                {/* <a href="https://vk.com/public218860758"><img src={navIcon2} alt="" /></a> */}
+                {/* <a href="#"><img src={navIcon3} alt="" /></a> */}
+                {/* <a href="https://t.me/psihologichnochannel"><img src={navIcon4} alt="" /></a> */}
               </div>
               <HashLink to=''>
                 <a href="https://t.me/psihologichno_bot"> <button onClick={() => console.log('https://t.me/psihologichno_bot')} className="vvd" >Перейти в Telegram</button></a>

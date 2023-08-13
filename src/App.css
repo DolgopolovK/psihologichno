@@ -416,6 +416,14 @@ padding-bottom: 5px;
     
     padding-top: 5px;
   }
+  .tgbutton{
+    /* margin-left: 25px; */
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+    
+  }
   
 } 
 
@@ -477,10 +485,16 @@ padding-bottom: 5px;
     height: 178px;
     padding-bottom: 40px;
     
+   
+    
     
   }
   .divImg{
-    padding-left: 60px;
+    /* padding-left: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
   }
   .buttomMobil{
    padding-left: 8px;
@@ -1079,4 +1093,16 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   }
 
 }
+
+@media screen and (max-width: 767px){
+  .contactButton  {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 1px;
+  }
+
+}
+
 
